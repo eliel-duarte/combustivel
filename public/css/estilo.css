@@ -1,5 +1,5 @@
 body{
-    display: flex;
+    
     justify-content: center;
 }
 :root {
@@ -10,9 +10,8 @@ body{
 }
 
 .tudo{
-    max-width: 400px;
-    min-width: 350px;
-    border: solid 1px #ccc;
+    max-width: 600px;
+    min-width: 350px;    
 }
 
 .cabecalho{
