@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+:root {
+  --cor-fundo: #73a4f4;
+  --cor: white;
+}
+
+.tudo{
+    max-width: 400px;
+    min-width: 200px;
+    border: solid 1px #ccc;
+}
+
+.cabecalho{
+    width: 100%;
+    background-color: var(--cor-fundo);
+    color: var(--cor);
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
