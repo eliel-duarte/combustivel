@@ -3,21 +3,31 @@ body{
     justify-content: center;
 }
 :root {
-  --cor-fundo: #73a4f4;
-  --cor: white;
+  --cor-fundo: #FED049;
+  --cor-1: #CFFDE1;
+  --cor-2: #68B984;
+  --cor-3: #3D5656;
 }
 
 .tudo{
     max-width: 400px;
-    min-width: 200px;
+    min-width: 350px;
     border: solid 1px #ccc;
 }
 
 .cabecalho{
     width: 100%;
     background-color: var(--cor-fundo);
-    color: var(--cor);
+    color: var(--cor-3);
     padding: 1rem;
     font-size: 2rem;
     font-family: "Trebuchet MS", Verdana, sans-serif;
+    text-align: left;
 }
+
+.bomba {
+    width: 15rem;
+    padding: 10rem 1rem; 
+    margin: auto;
+    display: block;
+  }
